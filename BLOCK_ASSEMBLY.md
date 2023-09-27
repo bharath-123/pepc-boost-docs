@@ -14,4 +14,3 @@ The PRs for the implementation:
 [[PEPC-Boost][1] add types for block assembler rpc + minor refactor](https://github.com/bharath-123/pepc-boost-builder/pull/7)
 [[PEPC-Boost][2] Block Assembler Implementation](https://github.com/bharath-123/pepc-boost-builder/pull/9)
 [[PEPC-Boost][3] Block Assembler Tests](https://github.com/bharath-123/pepc-boost-builder/pull/11)
-
