@@ -4,3 +4,13 @@ When the builder submits a block to the PEPC-Boost relayer, the relayer checks t
 The Block Assembler is an actor in the PEPC-Boost design, responsible for merging searcher ToB txs and RoB blocks built by builders. It is implemented as an RPC similar to `ValidateBlockSubmission`
 
 ![Relayer Block building](https://raw.githubusercontent.com/bharath-123/pepc-boost-docs/main/diagrams/TobRobBlockBuilding.png)
+
+### Relevant PRs
+
+[[PEPC-Boost][5] Add types to integrate with the block assembler](https://github.com/bharath-123/pepc-boost-relay/pull/8)
+
+[[PEPC-Boost][6] Block Assembler Client](https://github.com/bharath-123/pepc-boost-relay/pull/9)
+
+[[PEPC-Boost][7] Call block assembler with ToB txs whenever blocks are submitted](https://github.com/bharath-123/pepc-boost-relay/pull/10)
+
+[[PEPC-Boost][8] Block Assembler Client Integration tests](https://github.com/bharath-123/pepc-boost-relay/pull/11)
