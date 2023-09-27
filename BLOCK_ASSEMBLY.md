@@ -9,9 +9,3 @@ The Block Assembler RPC is called by the PEPC-Boost relay. When the builder subm
 Below is a diagram which shows the architecture:
 ![Block Assembler](https://raw.githubusercontent.com/bharath-123/pepc-boost-docs/main/diagrams/BlockAssembler.png)
 
-
-The PRs for the implementation:
-[[PEPC-Boost][1] add types for block assembler rpc + minor refactor](https://github.com/bharath-123/pepc-boost-builder/pull/7)
-[[PEPC-Boost][2] Block Assembler Implementation](https://github.com/bharath-123/pepc-boost-builder/pull/9)
-[[PEPC-Boost][3] Block Assembler Tests](https://github.com/bharath-123/pepc-boost-builder/pull/11)
-
