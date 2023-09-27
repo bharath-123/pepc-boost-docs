@@ -9,3 +9,14 @@ To minimize conflicts with the RoB (Rest of Block), the ToB transactions undergo
 Searchers submit their bids for ToB transactions through the /relay/v1/builder/tob_txs API endpoint. Additionally, it's worth mentioning that there are plans to implement a validation process for ToB transactions to ensure their legitimacy, although this feature has not yet been integrated.
 
 ![TOB bid auction](https://raw.githubusercontent.com/bharath-123/pepc-boost-docs/main/diagrams/TOBAuctionFlow.png)
+
+
+### Relevant PRs
+
+[[PEPC-Boost][1] ToB bid auction types](https://github.com/bharath-123/pepc-boost-relay/pull/4)
+
+[[PEPC-Boost][2] Redis datastore implementation for ToB bid auction](https://github.com/bharath-123/pepc-boost-relay/pull/5)
+
+[[PEPC-Boost][3] ToB bid auction implementation](https://github.com/bharath-123/pepc-boost-relay/pull/6)
+
+[[PEPC-Boost][4] Add tests for the ToB bid tx auction impl](https://github.com/bharath-123/pepc-boost-relay/pull/7)
