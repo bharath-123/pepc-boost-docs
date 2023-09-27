@@ -1,0 +1,11 @@
+## 📝 Per Slot ToB Auction Architecture in PEPC-Boost
+
+One of the pivotal elements within the PEPC-Boost ecosystem is the per slot ToB (Top of Block) auction.
+
+Within this auction, searchers have the opportunity to participate by submitting transactions (txs) they wish to see included at the top of the block proposed for that specific slot. Importantly, these transactions are built solely on top of their chosen parent hash. The role of the relayer in this process is to retain the highest-value transactions submitted by searchers at any given time. The value of these transactions is determined by the payout offered by the searcher.
+
+To minimize conflicts with the RoB (Rest of Block), the ToB transactions undergo state interference checks. Specifically, they are screened to identify whether they involve an ETH/USDC swap, which could potentially cause state interference. Subsequently, these ToB transactions are stored in a Redis cache, where the slot and parent hash serve as the keys. Notably, the ToB transactions have a cache Time-To-Live (TTL) of 45 seconds.
+
+Searchers submit their bids for ToB transactions through the /relay/v1/builder/tob_txs API endpoint. Additionally, it's worth mentioning that there are plans to implement a validation process for ToB transactions to ensure their legitimacy, although this feature has not yet been integrated.
+
+![TOB bid auction](https://raw.githubusercontent.com/bharath-123/pepc-boost-docs/main/diagrams/TOBAuctionFlow.png)
