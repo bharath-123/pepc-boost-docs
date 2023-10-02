@@ -1,4 +1,4 @@
-# pepc-boost-docs
+# PEPC-Boost Docs
 
 This repo contains all documentation related to PEPC-Boost
 
@@ -11,3 +11,12 @@ This repo contains all documentation related to PEPC-Boost
 `TOB_ROB_BUILDING.md` - Contains the workflow in the relayer for how ToB and RoB blocks are selected and merged to get a final block
 
 `TOB_AUCTION.md` - Contains the architecture of the auction for searchers to include their txs at the ToB
+
+
+## Glossary
+
+`PEPC` - Protocol Enforced Proposer Commitments
+
+`ToB` - Top of the block
+
+`RoB` - Rest of the block
