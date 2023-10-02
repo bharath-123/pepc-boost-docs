@@ -20,3 +20,12 @@ This repo contains all documentation related to PEPC-Boost
 `ToB` - Top of the block
 
 `RoB` - Rest of the block
+
+`ToB value` - The value of the ToB txs which is determined by the payout offered by the searcher to the proposer of the block.
+
+`ToB tx` - The transaction which the searcher wants to include at the top of the block
+
+`Builder` - The entity which builds the RoB block
+
+`Searcher` - The entity which bids for the ToB slot
+
