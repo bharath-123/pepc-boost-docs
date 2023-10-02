@@ -1,6 +1,6 @@
 ## 📝 ToB Auction Architecture
 
-One of the interesting features in PEPC-boost is the ToB (Top of Block) auction.
+PEPC-Boost allows searchers to bid for the top of the block (ToB) of the block proposed for the particular slot.
 
 Within this auction, searchers have the opportunity to participate by submitting transactions (txs) they wish to see included at the top of the block proposed for that specific slot. The searchers also have to specify the parent hash of the block on top which they built their ToB txs. The PEPC-Boost relay stores the highest value ToB txs sent for a given slot and parent hash. The value of the ToB transactions is determined by the payout offered by the searcher to the proposer of the block. Note that searchers can only submit txs they want to include in the current slot or the next slot.  
 
