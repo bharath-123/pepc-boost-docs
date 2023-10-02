@@ -65,4 +65,9 @@ Monitor the recently delivered payloads for the slot for which you have submitte
 
 You can pick the block hash of the block from the website and run the block inspection code available in above repo. With this you can examine the txs and check if your ToB txs are on the top.
 
+You can also check the logs of the pepc-boost-relay to check if your ToB txs were submitted successfully by running
+
+```bash
+docker logs -f --tail 100 <pepc-boost-relay-container-id>
+```
 
