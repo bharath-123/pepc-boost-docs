@@ -12,6 +12,7 @@ This repo contains all documentation related to PEPC-Boost
 
 `TOB_AUCTION.md` - Contains the architecture of the auction for searchers to include their txs at the ToB
 
+`STATE_INTERFERENCE.md` - Contains workflow of state interference checks in PEPC-Boost
 
 ## Glossary
 
