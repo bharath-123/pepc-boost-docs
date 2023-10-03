@@ -1,4 +1,4 @@
-## 📝 ToB Auction Architecture
+## 📝 ToB Auction
 
 PEPC-Boost allows searchers to bid for the top of the block (ToB) of the block proposed for the particular slot.
 
