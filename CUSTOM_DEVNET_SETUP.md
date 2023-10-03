@@ -1,6 +1,6 @@
 ## 📝 Custom Devnet setup
 
-It is possible to test PEPC-Boost on a custom devnet using kurtosis. This is useful for testing PEPC-Boost on a custom devnet with a specific configuration. This guide will walk you through the steps to setup a custom devnet and test PEPC-Boost on it.
+It is possible to test PEPC-Boost on a custom devnet using kurtosis with a specific configuration. This guide will walk you through the steps to setup a custom devnet on kurtosis and test PEPC-Boost on it.
 
 ### 📝 Prerequisites
 
@@ -49,17 +49,17 @@ The network.json file contents can be found below
 ```
 
 You can use `public.ecr.aws/t1d5h1w5/pepc-boost-relay:latest` as the latest pepc-boost-relay image and `public.ecr.aws/t1d5h1w5/pepc-boost-builder:latest` as the latest pepc-boost-builder image with it which contains the `assembleBlock` RPC.
-Note that these images are bleeding edge and might contain breaking changes.
+Note that these images are bleeding edge and might contain bugs.
 
 ### 📝 Testing
 
-To submit ToB txs, you can follow the guide provided in the README of the following repo:
+To submit ToB txs, you can follow README provided in the following repo:
 
 https://github.com/bharath-123/pepc-boost-testing/tree/devnet-testing
 
 The code should be pretty readable and it should be easy to submit a ToB tx with this api.
 
-Post submission of a ToB tx using the above repo, you can monitor the pepc-boost-relay website which you can connect to by connecting to the port of the pepc-boost-relay website.
+Post submission of a ToB tx using the above repo, you can monitor the pepc-boost-relay website which you can connect to by connecting to the port of the pepc-boost-relay website(which is the same as the mev-relay website).
 
 Monitor the recently delivered payloads for the slot for which you have submitted your ToB tx. If your validator payout is fairly high, you will see a delivered payload with fairly high value.
 
